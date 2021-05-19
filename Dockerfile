@@ -1,6 +1,6 @@
-FROM gcr.io/cloud-builders/kubectl
+FROM bitnami/kubectl:KUBECTL_VERSION
 
-LABEL version="1.0.0"
+LABEL version="1.0.1"
 LABEL name="kubectl"
 LABEL repository="http://github.com/steebchen/kubectl"
 LABEL homepage="http://github.com/steebchen/kubectl"
