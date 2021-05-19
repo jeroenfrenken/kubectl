@@ -1,6 +1,8 @@
 name: 'kubectl'
 description: 'The kubectl command line program as a GitHub Action'
 runs:
+  env:
+    KUBECTL_VERSION: "1.15"
   using: 'docker'
   image: 'Dockerfile'
 branding:
