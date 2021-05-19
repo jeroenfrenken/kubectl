@@ -1,4 +1,4 @@
-FROM bitnami/kubectl:KUBECTL_VERSION
+FROM bitnami/kubectl:1.15
 
 LABEL version="1.0.1"
 LABEL name="kubectl"
