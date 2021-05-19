@@ -1,5 +1,7 @@
 # Github Action for Kubernetes CLI
 
+This is a fork of the action from steebchen. The kubectl version is not supported and pinned to 1.15 for more performance.
+
 This action provides `kubectl` for Github Actions.
 
 ## Usage
